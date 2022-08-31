@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #player-container{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);      
+    }
+
+    .player{
+      background-color: coral;
+      padding: 20px;
+      border-radius: 15px;
+      margin: 12px;
+    }
+    .imgee{
+      height: 150px;
+      width: 150px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h1>All players</h1>
+
+    <div class="search">
+      <input type="text" name="" id="search-field" placeholder="search your player">
+      <button onclick="searchPlayer()">Search player</button>
+    </div>
+
+    <div id="player-container">
+          
+    </div>
+  </section>
+
+
+  <script src="./scrpt.js"></script>
+</body>
+</html>
